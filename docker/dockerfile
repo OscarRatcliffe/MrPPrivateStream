@@ -1,0 +1,9 @@
+FROM alpine
+COPY ./build /app/
+
+RUN apk add --update nodejs
+
+WORKDIR /app/build
+CMD ["node backend.js"]
+
+EXPOSE 3000

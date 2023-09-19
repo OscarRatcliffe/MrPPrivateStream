@@ -2,9 +2,11 @@ const express = require('express')
 const app = express();
 
 
-app.get('/', (req, res) => {
+app.get('/:userVal', (req, res) => {
   res.send({
-    "Test": 7
+    "Test": 7,
+    "/x": req.params.userVal
+    
   });
 });
 

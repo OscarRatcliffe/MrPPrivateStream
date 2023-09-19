@@ -3,10 +3,10 @@ import './App.scss';
 
 function App() {
   return (
-    <div className="App">
-      <div className="Player">1</div>
-      <div className="Chat">
-        <div className="SendMessage">
+    <div className="app">
+      <div className="player">1</div>
+      <div className="chat">
+        <div className="sendMessage">
           Test
         </div>
       </div>
